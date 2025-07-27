@@ -111,14 +111,18 @@ const Work = () => {
                   >
                     View Code
                   </a>
-                  <a
-                    href={selectedProject.webapp}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
-                  >
-                    View Live
-                  </a>
+                  {/* Only show View Live button if webapp URL is available */}
+                  {selectedProject.webapp  && (
+                    <a
+                      href={selectedProject.webapp}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
+                    >
+                      View Live
+                    </a>
+                  )}
+
                 </div>
               </div>
             </div>

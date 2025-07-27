@@ -12,8 +12,7 @@ const Experience = () => {
         <h2 className="text-4xl font-bold text-white">EXPERIENCE</h2>
         <div className="w-32 h-1 bg-purple-500 mx-auto mt-4"></div>
         <p className="text-gray-400 mt-4 text-lg font-semibold">
-          A collection of my work experience and the roles I have taken in
-          various organizations
+          A collection of my work experience and the roles I have taken in Accenture
         </p>
       </div>
 
@@ -31,13 +30,13 @@ const Experience = () => {
             }`}
           >
             {/* Timeline Circle */}
-            <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10">
+            {/* <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10">
               <img
                 src={experience.img}
                 alt={experience.company}
                 className="w-full h-full object-cover rounded-full"
               />
-            </div>
+            </div> */}
 
             {/* Content Section */}
             <div
@@ -52,7 +51,7 @@ const Experience = () => {
                   <img
                     src={experience.img}
                     alt={experience.company}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover rounded-full"
                   />
                 </div>
 

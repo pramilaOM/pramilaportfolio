@@ -48,4 +48,4 @@ npm run build
 ```
 ## 🌟 Credits
 
-This project was created with ❤️ by [Tarun Kaushik](https://tarunkaushik.vercel.app/).
+This project was originally created  by [Tarun Kaushik](https://tarunkaushik.vercel.app/).

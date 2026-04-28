@@ -43,7 +43,7 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a Java backend developer with 6 years of experience in building scalable microservices using Spring Boot. Skilled in REST APIs, CI/CD, and cloud tools like Docker and AWS, I focus on delivering clean, efficient, and reliable backend systems.
+             I am a software developer with 6 years of experience building scalable and efficient applications across backend and full-stack environments. Skilled in modern frameworks, APIs, cloud technologies, and CI/CD, I focus on delivering reliable, high-quality solutions that solve real-world problems.
           </p>
 
           {/* Resume Button */}

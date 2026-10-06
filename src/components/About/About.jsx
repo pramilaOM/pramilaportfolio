@@ -48,7 +48,6 @@ const About = () => {
 
           {/* Resume Button */}
          <a
-            {/* href="https://drive.google.com/uc?export=download&id=1VkZoAHPGFOroPjtLRu0WBH0lL6QpoEVl" */}
             href="https://drive.google.com/file/d/1A6DA5_HyC_8DSZtXABclzzmcdalrI70f/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
